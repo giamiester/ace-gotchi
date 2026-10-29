@@ -1,0 +1,20 @@
+# runtime state
+save.json
+save.json.tmp
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# dev renders and screenshots (regenerate with the dev_*.py scripts)
+preview/
+
+# editors / OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store

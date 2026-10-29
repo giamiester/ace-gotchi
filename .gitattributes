@@ -1,0 +1,9 @@
+# Normalise line endings so the repo is LF regardless of the contributing OS.
+* text=auto eol=lf
+
+# Windows-only launchers are safer with CRLF.
+*.bat text eol=crlf
+*.vbs text eol=crlf
+
+# Rendered art is binary.
+*.png binary
